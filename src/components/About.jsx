@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-
+import profileImage from "../assets/profile.jpeg";
 function About() {
   return (
     <section id="about" className="section about-section">
@@ -24,7 +24,7 @@ function About() {
           viewport={{ once: true }}
         >
           <div className="image-frame">
-            <img src="/profile.jpeg" alt="Ashritha" />
+            <img src={profileImage} alt="Ashritha" />
           </div>
         </motion.div>
 
